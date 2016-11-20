@@ -6,7 +6,7 @@ Rebuilding the search index via the backend of Contao actually creates an AJAX r
 Access-Control-Allow-Headers: X-Requested-With
 Access-Control-Allow-Origin: …
 ```
-The first header is necessary, because Contao uses the MooTools `Request` class, which always adds the `X-Requested-With` request header (see [mootools.net/core/docs/1.5.2/Request/Request](http://mootools.net/core/docs/1.5.2/Request/Request)). The second header allows AJAX Requests from other domains.
+The first header is necessary, because Contao uses the MooTools `Request` class, which always adds the `X-Requested-With` request header (see [mootools.net/core/docs/1.5.2/Request/Request](http://mootools.net/core/docs/1.5.2/Request/Request)). The second header allows AJAX requests from other domains.
 
 Adding these headers could be done via the `.htaccess`, __however__ this does not work in case the PHP process is executed via FastCGI. In that case you would need to set these headers directly in the vhost configuration of Apache.
 
