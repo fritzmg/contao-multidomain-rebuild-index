@@ -1,0 +1,37 @@
+{
+	"name":"fritzmg/contao-multidomain-rebuild-index",
+	"description":"Mini extension that makes rebuilding the search index possible for multidomain.",
+	"keywords":["contao", "rebuild", "search", "index", "multidomain"],
+	"type":"contao-module",
+	"homepage":"http://www.inspiredminds.at",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Fritz Michael Gschwantner",
+			"homepage":"http://www.inspiredminds.at",
+			"email":"fmg@inspiredminds.at",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"fmg@inspiredminds.at",
+		"issues":"https://github.com/fritzmg/contao-multidomain-rebuild-index/issues",
+		"source":"https://github.com/fritzmg/contao-multidomain-rebuild-index",
+		"forum":"https://community.contao.org/de"
+	},
+	"require":{
+		"php":">=5.2",
+		"contao/core":"~3.0",
+		"contao-community-alliance/composer-installer":"*"
+	},
+	"replace": {
+		"contao-legacy/multidomain_rebuild_index": "self.version"
+	},
+	"extra":{
+		"contao":{
+			"sources": {
+				"system/modules/multidomain_rebuild_index":"system/modules/multidomain_rebuild_index"
+			}
+		}
+	}
+}
