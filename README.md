@@ -12,7 +12,7 @@ Adding these headers could be done via the `.htaccess`:
 
 ```
 <IfModule mod_headers.c>
-  Header set Access-Control-Allow-Headers: X-Requested-With
+  Header set Access-Control-Allow-Headers X-Requested-With
   Header set Access-Control-Allow-Origin http://example.org
 </IfModule>
 ```
