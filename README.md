@@ -19,7 +19,7 @@ Adding these headers could be done via the `.htaccess`:
 
 The value for the `Access-Control-Allow-Origin` header should be changed to the domain (and scheme) with which you access the Contao back end.
 
-__However__ this does not work in every server environment (see http://serverfault.com/a/383063/143519 for example). In that case you would need to set these headers directly in the vhost configuration of Apache.
+__However__ this does not work in every server environment for requests that are handled by PHP via FastCGI for example (see http://serverfault.com/a/383063/143519). In that case you would need to set these headers directly in the vhost configuration of Apache.
 
 This extension helps with cases where that is not possible. By installing this extension the headers are automatically set for any front end page output. The `Access-Control-Allow-Origin` header is automatically set to the domain with which you accessed the Contao back end. No configuration is needed for this extension.
 
