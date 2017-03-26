@@ -27,3 +27,5 @@ _Note:_ further problems can arise, if you use HTTPS on some of the domains. AJA
 
 * log into the backend via HTTP
 * or force HTTPS for all domains
+
+_Note:_ this extension is not needed, if you use Contao `^3.5.25` or Contao `>=4.3.6`.
