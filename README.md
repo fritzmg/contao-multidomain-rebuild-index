@@ -1,3 +1,7 @@
+[![](https://img.shields.io/maintenance/yes/2016.svg)](https://github.com/fritzmg/contao-multidomain-rebuild-index)
+[![](https://img.shields.io/packagist/v/fritzmg/contao-multidomain-rebuild-index.svg)](https://packagist.org/packages/fritzmg/contao-multidomain-rebuild-index)
+[![](https://img.shields.io/packagist/dt/fritzmg/contao-multidomain-rebuild-index.svg)](https://packagist.org/packages/fritzmg/contao-multidomain-rebuild-index)
+
 Contao Multidomain Rebuild Index
 =====================
 
